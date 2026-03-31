@@ -1,0 +1,23 @@
+
+/* style.css */
+
+/* Eliminamos márgenes por defecto del navegador */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Configuramos el cuerpo de la página como un contenedor flexible */
+body {
+  background-color: #1a1a1a; /* Un gris oscuro para que resalte tu obra */
+  display: flex;             /* Activa el modo Flexbox */
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  min-height: 100vh;         /* Obliga al body a medir toda la altura de la pantalla */
+  overflow: hidden;          /* Evita que aparezcan barras de scroll innecesarias */
+}
+
+/* Opcional: Si quieres que el canvas tenga una sombra sutil */
+canvas {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
